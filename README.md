@@ -29,4 +29,9 @@ module purge
 module load anaconda3/2020.11
 conda activate pytools-env
 
-python myscript.py```
+python myscript.py
+```
+Submitting Jobs:
+* srun - used to submit a job for execution in real time
+* sbatch - used to submit a job script for later execution
+
